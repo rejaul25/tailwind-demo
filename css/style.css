@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+@layer base{
+ 
+    .catagory ul li{position: relative;}
+    .catagory ul li a::before{
+        content: "";
+        top: 12px;
+         left: -12px;
+        position: absolute;
+         padding: 3px 10px;
+     background: green;
+    
+}
+ body{
+    background: url(../img/web_img/web_bg.png);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: repeat;
+    object-fit: cover;
+ }
+
+}
